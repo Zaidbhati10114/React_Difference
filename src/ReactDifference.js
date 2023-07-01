@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ReactDifference.css";
 
-const App = () => {
+const ReactDifference = () => {
   const [listA, setListA] = useState("");
   const [listB, setListB] = useState("");
   const [results, setResults] = useState(null);
@@ -104,4 +104,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default ReactDifference;
